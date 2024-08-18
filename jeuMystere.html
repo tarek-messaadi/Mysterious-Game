@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jeu Mystère</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<script src="script.js"></script>
+<body onload="jeuMystere()">
+  <div id="container">
+    <div id="side"></div>
+    <div id="main-content">
+      <div id="main">
+        <div id = "title">
+        <img src="mystere.png" style="width: 20%; height: auto;">
+        <h1>Jeu Mystére</h1>
+        </div>
+  
+        <div id="divInput">
+          <h2> Deviner un nombre entre 0 et 10 : </h2>
+          <input id="input" />
+          <div id="restart">
+            <button id="button">Rejouer</button>
+          </div>
+        </div>
+  
+        <div>
+          <h1 id="message"></h1>
+        </div>
+        
+        <div id="AddName"></div>
+      </div>    
+      <div id="TableBest10"></div>
+    </div>
+    <div id="side"></div>
+  </div>
+</body>
+</html>

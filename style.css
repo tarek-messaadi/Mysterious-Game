@@ -1,0 +1,111 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  width: 100%;
+  
+}
+
+#side {
+  background-color: #2c3e50;
+  width: 15%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#main-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf0f1;
+}
+#title {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+
+h1 {
+  color: #fd4b48;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+}
+
+#divInput {
+  width: 60%;
+  margin-top: 40px;
+}
+
+#input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 20%;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+
+#message {
+  font-size: 50px;
+  color: #ff1900;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#AddName {
+  margin-top: 20px;
+}
+
+#inputName {
+  padding: 10px;
+  width: 100%;
+}
+
+#TableBest10 {
+  margin-top: 20px;
+}
+
+table {
+  width: 80%;
+  font-size: 12px;
+  border-collapse: collapse;
+  margin-left: 10%;
+}
+
+#classement {
+  background-color: rgba(255, 255, 0, 0.2);
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
